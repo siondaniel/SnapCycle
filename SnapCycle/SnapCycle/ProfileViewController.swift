@@ -64,7 +64,7 @@ class ProfileViewController: UIViewController, UIImagePickerControllerDelegate
                 classifier.text = initialPrint + "\n RECYCLE!"
             }
         }else{
-            classifier.text = "Unable to Detect"
+            classifier.text = "Unable to Detect Recycling\nPlease Throw Away"
         }
         
     }
