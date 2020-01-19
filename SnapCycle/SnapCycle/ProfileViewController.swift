@@ -59,7 +59,7 @@ class ProfileViewController: UIViewController, UIImagePickerControllerDelegate
         
         let initialPrint = String(prediction.classLabel.capitalized + "\nConfidence: " + confidence_round + "%")
         
-        if confidence > 75.0{
+        if confidence > 75.0 && !prediction.classLabel.isEqual("trash"){
             if prediction.classLabel.isEqual("plastic") || prediction.classLabel.isEqual("metal") || prediction.classLabel.isEqual("glass") || prediction.classLabel.isEqual("cardboard") || prediction.classLabel.isEqual("paper"){
                 classifier.text = initialPrint + "\n RECYCLE!"
             }
