@@ -48,7 +48,7 @@ class ProfileViewController: UIViewController, UIImagePickerControllerDelegate
         UIGraphicsPopContext()
         CVPixelBufferUnlockBaseAddress(pixelBuffer!, CVPixelBufferLockFlags(rawValue: 0))
         
-        guard let prediction = try? recycle_84().prediction(image: pixelBuffer!) else {
+        guard let prediction = try? recycle_trash().prediction(image: pixelBuffer!) else {
             return
         }
         

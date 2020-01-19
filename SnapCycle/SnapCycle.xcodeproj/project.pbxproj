@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FB91785923D42B9B00262124 /* recycle 84.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FB91785823D42B9B00262124 /* recycle 84.mlmodel */; };
+		FB91785B23D4D0F900262124 /* recycle_trash.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FB91785A23D4D0F900262124 /* recycle_trash.mlmodel */; };
 		FBD7255923D3D6BF00149C11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD7255823D3D6BF00149C11 /* AppDelegate.swift */; };
 		FBD7255B23D3D6BF00149C11 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD7255A23D3D6BF00149C11 /* SceneDelegate.swift */; };
 		FBD7255D23D3D6BF00149C11 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD7255C23D3D6BF00149C11 /* CameraViewController.swift */; };
@@ -38,7 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FB91785823D42B9B00262124 /* recycle 84.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = "recycle 84.mlmodel"; path = "../../../Downloads/recycle 84.mlmodel"; sourceTree = "<group>"; };
+		FB91785A23D4D0F900262124 /* recycle_trash.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = recycle_trash.mlmodel; path = ../../../Downloads/recycle_trash.mlmodel; sourceTree = "<group>"; };
 		FBD7255523D3D6BF00149C11 /* SnapCycle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapCycle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBD7255823D3D6BF00149C11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBD7255A23D3D6BF00149C11 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -113,7 +113,7 @@
 				FBD7255E23D3D6BF00149C11 /* Main.storyboard */,
 				FBD7256123D3D6C300149C11 /* Assets.xcassets */,
 				FBD7256323D3D6C300149C11 /* LaunchScreen.storyboard */,
-				FB91785823D42B9B00262124 /* recycle 84.mlmodel */,
+				FB91785A23D4D0F900262124 /* recycle_trash.mlmodel */,
 				FBD7256623D3D6C400149C11 /* Info.plist */,
 			);
 			path = SnapCycle;
@@ -280,8 +280,8 @@
 				FBD7255D23D3D6BF00149C11 /* CameraViewController.swift in Sources */,
 				FBD7255923D3D6BF00149C11 /* AppDelegate.swift in Sources */,
 				FBD7258923D3DE0100149C11 /* ProfileViewController.swift in Sources */,
-				FB91785923D42B9B00262124 /* recycle 84.mlmodel in Sources */,
 				FBD7255B23D3D6BF00149C11 /* SceneDelegate.swift in Sources */,
+				FB91785B23D4D0F900262124 /* recycle_trash.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
